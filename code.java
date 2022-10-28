@@ -34,7 +34,7 @@ public class sortbinary{
     }
     public static int minsearch(int arr[])
     {
-        int small=Integer.MAX_VALUE,index=-1;
+        int small=Integer.MIN_VALUE,index=-1;
         for(int i=0;i<arr.length;i++)
         {
             if(arr[i]<small)
