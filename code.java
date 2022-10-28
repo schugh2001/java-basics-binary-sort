@@ -32,7 +32,7 @@ public class sortbinary{
         }
         return -1;
     }
-    public static int minsearch(int arr[])
+    public static int misearch(int arr[])
     {
         int small=Integer.MIN_VALUE,index=-1;
         for(int i=0;i<arr.length;i++)
